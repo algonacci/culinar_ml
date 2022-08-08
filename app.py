@@ -1,8 +1,10 @@
 from flask import Flask, jsonify, request
+from flask_cors import cross_origin
 
 app = Flask(__name__)
 
 @app.route("/", methods=["GET"])
+@cross_origin()
 def index():
     json = {
         "data": "Hello World",
@@ -12,6 +14,7 @@ def index():
     return jsonify(json)
 
 @app.route("/post", methods=["POST"])
+@cross_origin()
 def post():
     input = request.get_json()
     json = {
@@ -22,6 +25,7 @@ def post():
     return jsonify(json)
 
 @app.errorhandler(404)
+@cross_origin()
 def not_found(error):
     json = {
         "data": "Error",
@@ -31,6 +35,7 @@ def not_found(error):
     return jsonify(json)
 
 @app.errorhandler(500)
+@cross_origin()
 def server_error(error):
     json = {
         "data": "Error",
