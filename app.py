@@ -5,7 +5,7 @@ import nltk
 import pandas as pd
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
-nltk.download(['stopwords', 'wordnet'])
+nltk.download(['stopwords', 'wordnet', 'omw-1.4'])
 
 app = Flask(__name__)
 
