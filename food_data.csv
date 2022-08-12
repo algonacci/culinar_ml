@@ -4,86 +4,86 @@ japanese,stress
 japanese,sad
 japanese,happy
 japanese,happy
-japanese,boredom
+japanese,bored
 japanese,happy
-japanese,tv
-japanese,boredom
+japanese,loved
+japanese,bored
 japanese,happy
 korean,happy
 korean,sad
 korean,sad
-korean,boredom
-korean,boredom
+korean,bored
+korean,bored
 korean,happy
-korean,boredom
-korean,cold
+korean,bored
+korean,angry
 korean,happy
 korean,sad
 korean,happy
 sunda,happy
-sunda,cold
-sunda,cold
-sunda,boredom
-sunda,cold
-sunda,boredom
-sunda,boredom
-sunda,cold
+sunda,angry
+sunda,angry
+sunda,bored
+sunda,angry
+sunda,bored
+sunda,bored
+sunda,angry
 sunda,happy
 sunda,happy
 sunda,happy
-sunda,cold
-sunda,boredom
+sunda,angry
+sunda,bored
 indonesian,hungry
 indonesian,stress
 indonesian,hungry
 indonesian,stress
-indonesian,depression
-indonesian,depression
-indonesian,depression
+indonesian,depressed
+indonesian,depressed
+indonesian,depressed
 indonesian,hungry
 indonesian,hungry
 indonesian,stress
 indonesian,stress
-peranakan,depression
+peranakan,depressed
 peranakan,hungry
 peranakan,stress
 peranakan,stress
-peranakan,depression
+peranakan,depressed
 peranakan,hungry
 peranakan,stress
 peranakan,stress
-burger,laziness
-burger,laziness
+burger,lazy
+burger,lazy
 burger,sad
-burger,laziness
+burger,lazy
 burger,sad
-burger,laziness
+burger,lazy
 burger,sad
-burger,laziness
-burger,laziness
-burger,laziness
-burger,laziness
-burger,boredom
-burger,boredom
+burger,lazy
+burger,lazy
+burger,lazy
+burger,lazy
+burger,bored
+burger,bored
 italian,stress
-italian,cold
-italian,tv
-italian,laziness
-italian,depression
-italian,depression
-italian,laziness
+italian,angry
+italian,loved
+italian,lazy
+italian,depressed
+italian,depressed
+italian,lazy
 italian,stress
 italian,sad
 cafe,hungry
 cafe,hungry
 cafe,hungry
-cafe,boredom
-cafe,depression
+cafe,bored
+cafe,depressed
 cafe,stress
-cafe,cold
-cafe,cold
-cafe,tv
-cafe,tv
+cafe,angry
+cafe,angry
+cafe,loved
+cafe,loved
 cafe,hungry
 cafe,stress
 seafood,happy
@@ -91,34 +91,34 @@ seafood,happy
 seafood,happy
 seafood,sad
 seafood,sad
-seafood,depression
+seafood,depressed
 seafood,hungry
 seafood,hungry
 seafood,hungry
 seafood,hungry
-seafood,boredom
-seafood,depression
+seafood,bored
+seafood,depressed
 seafood,stress
-seafood,tv
-seafood,cold
-seafood,cold
-seafood,laziness
+seafood,loved
+seafood,angry
+seafood,angry
+seafood,lazy
 seafood,sad
-seafood,boredom
+seafood,bored
 seafood,happy
 seafood,stress
-seafood,depression
-seafood,laziness
+seafood,depressed
+seafood,lazy
 seafood,sad
-seafood,boredom
-seafood,tv
-seafood,cold
-seafood,cold
-seafood,cold
-seafood,cold
+seafood,bored
+seafood,loved
+seafood,angry
+seafood,angry
+seafood,angry
+seafood,angry
 western food,happy
-western food,laziness
-western food,laziness
+western food,lazy
+western food,lazy
 western food,happy
 western food,sad
 western food,sad
@@ -126,14 +126,14 @@ western food,sad
 western food,sad
 western food,sad
 western food,sad
-western food,cold
-western food,cold
-western food,cold
-western food,cold
-western food,tv
-western food,tv
-western food,depression
-western food,depression
+western food,angry
+western food,angry
+western food,angry
+western food,angry
+western food,loved
+western food,loved
+western food,depressed
+western food,depressed
 western food,hungry
 western food,hungry
 western food,hungry
@@ -141,14 +141,14 @@ western food,hungry
 western food,hungry
 western food,hungry
 western food,hungry
-western food,boredom
-western food,cold
-western food,laziness
+western food,bored
+western food,angry
+western food,lazy
 western food,sad
 western food,hungry
-western food,depression
-western food,depression
-western food,depression
+western food,depressed
+western food,depressed
+western food,depressed
 desserts,stress
 desserts,happy
 desserts,stress
@@ -160,96 +160,96 @@ desserts,stress
 desserts,stress
 desserts,stress
 desserts,stress
-desserts,depression
-desserts,depression
-desserts,depression
-desserts,depression
-desserts,depression
-desserts,depression
-desserts,depression
-desserts,depression
+desserts,depressed
+desserts,depressed
+desserts,depressed
+desserts,depressed
+desserts,depressed
+desserts,depressed
+desserts,depressed
+desserts,depressed
 desserts,sad
-desserts,laziness
-desserts,laziness
-desserts,laziness
+desserts,lazy
+desserts,lazy
+desserts,lazy
 desserts,sad
-desserts,laziness
+desserts,lazy
 desserts,sad
-desserts,boredom
-desserts,cold
-desserts,tv
-desserts,tv
-desserts,tv
-desserts,tv
-desserts,tv
-desserts,tv
-desserts,tv
-desserts,tv
-desserts,depression
-desserts,laziness
-desserts,laziness
-desserts,laziness
-desserts,laziness
-desserts,tv
-desserts,cold
-desserts,cold
+desserts,bored
+desserts,angry
+desserts,loved
+desserts,loved
+desserts,loved
+desserts,loved
+desserts,loved
+desserts,loved
+desserts,loved
+desserts,loved
+desserts,depressed
+desserts,lazy
+desserts,lazy
+desserts,lazy
+desserts,lazy
+desserts,loved
+desserts,angry
+desserts,angry
 desserts,hungry
 desserts,hungry
 desserts,hungry
-desserts,boredom
-desserts,laziness
+desserts,bored
+desserts,lazy
 desserts,sad
 desserts,happy
 desserts,stress
-desserts,tv
-desserts,cold
+desserts,loved
+desserts,angry
 desserts,happy
-desserts,laziness
+desserts,lazy
 desserts,sad
 desserts,sad
 desserts,sad
-desserts,depression
+desserts,depressed
 desserts,sad
-desserts,depression
-desserts,laziness
+desserts,depressed
+desserts,lazy
 desserts,happy
 desserts,happy
-desserts,depression
-desserts,depression
-desserts,depression
-desserts,depression
-desserts,depression
-desserts,depression
-desserts,depression
-desserts,depression
-desserts,depression
-desserts,depression
-desserts,depression
-desserts,depression
-desserts,boredom
-desserts,boredom
-desserts,boredom
-desserts,boredom
-desserts,boredom
-desserts,boredom
-desserts,boredom
-desserts,boredom
-desserts,boredom
-desserts,cold
-desserts,tv
+desserts,depressed
+desserts,depressed
+desserts,depressed
+desserts,depressed
+desserts,depressed
+desserts,depressed
+desserts,depressed
+desserts,depressed
+desserts,depressed
+desserts,depressed
+desserts,depressed
+desserts,depressed
+desserts,bored
+desserts,bored
+desserts,bored
+desserts,bored
+desserts,bored
+desserts,bored
+desserts,bored
+desserts,bored
+desserts,bored
+desserts,angry
+desserts,loved
 desserts,sad
-desserts,depression
-bakery,cold
-bakery,cold
-bakery,tv
+desserts,depressed
+bakery,angry
+bakery,angry
+bakery,loved
 bakery,sad
 bakery,sad
-bakery,boredom
-bakery,boredom
-bakery,boredom
-bakery,boredom
-bakery,boredom
-bakery,boredom
+bakery,bored
+bakery,bored
+bakery,bored
+bakery,bored
+bakery,bored
+bakery,bored
 bakery,stress
 bakery,stress
 bakery,stress
@@ -260,26 +260,26 @@ bakery,hungry
 bakery,hungry
 bakery,hungry
 bakery,happy
-bakery,laziness
-bakery,laziness
-bakery,laziness
-bakery,laziness
+bakery,lazy
+bakery,lazy
+bakery,lazy
+bakery,lazy
 bakery,sad
-bakery,boredom
-bakery,boredom
-bakery,boredom
-bakery,cold
+bakery,bored
+bakery,bored
+bakery,bored
+bakery,angry
 bakery,hungry
 bakery,hungry
 bakery,hungry
 bakery,happy
-bakery,depression
+bakery,depressed
 bakery,stress
-bakery,laziness
+bakery,lazy
 bakery,sad
-bakery,boredom
-bakery,cold
-bakery,tv
+bakery,bored
+bakery,angry
+bakery,loved
 bakery,hungry
 bakery,hungry
 bakery,hungry
@@ -304,10 +304,10 @@ coffee and tea,sad
 coffee and tea,stress
 coffee and tea,sad
 coffee and tea,stress
-coffee and tea,boredom
-coffee and tea,boredom
-coffee and tea,cold
-coffee and tea,tv
+coffee and tea,bored
+coffee and tea,bored
+coffee and tea,angry
+coffee and tea,loved
 coffee and tea,hungry
-coffee and tea,cold
+coffee and tea,angry
 coffee and tea,sad
