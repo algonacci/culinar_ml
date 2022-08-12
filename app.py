@@ -99,7 +99,8 @@ def server_error(error):
     json = {
         "data": "Error",
         "message": "Server Error",
-        "status_code": 500
+        "status_code": 500,
+        "error": error
     }
     return jsonify(json)
 
