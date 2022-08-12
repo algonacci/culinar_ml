@@ -1,6 +1,8 @@
 import pandas as pd
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
+import nltk
+nltk.download(['stopwords', 'wordnet', 'omw-1.4'])
 
 stop_words = set(stopwords.words('english'))
 stop_words.update(['.', ',', '"', "'", '?', '!', ':',

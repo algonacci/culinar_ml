@@ -1,8 +1,6 @@
 from flask import Flask, jsonify, request
 from flask_cors import cross_origin
 import module as md
-import nltk
-nltk.download(['stopwords', 'wordnet', 'omw-1.4'])
 
 app = Flask(__name__)
 
