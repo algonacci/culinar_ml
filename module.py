@@ -25,7 +25,7 @@ food_to_cuisine_map = {
     "peranakan": "peranakan",
     "burger": "burger",
     "italian": "italian",
-    "café": "café",
+    "cafe": "cafe",
     "seafood": "seafood",
     "western food": "western food",
     "desserts": "desserts",
