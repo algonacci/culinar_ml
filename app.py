@@ -1,8 +1,23 @@
+import gspread
+import pandas as pd
 from flask import Flask, jsonify, request
 from flask_cors import cross_origin
+from oauth2client.service_account import ServiceAccountCredentials
+
 import module as md
 
 app = Flask(__name__)
+
+
+credentials = ServiceAccountCredentials.from_json_keyfile_name('credentials.json',
+                                                               ["https://spreadsheets.google.com/feeds",
+                                                                "https://www.googleapis.com/auth/spreadsheets",
+                                                                "https://www.googleapis.com/auth/drive.file",
+                                                                "https://www.googleapis.com/auth/drive"])
+
+client = gspread.authorize(credentials)
+gsheet = client.open("Culinar-in Forms").sheet1
+
 
 @app.route("/", methods=["GET"])
 @cross_origin()
@@ -73,6 +88,39 @@ def find():
                 "status_code": 200
             }
             return jsonify(json)
+    else:
+        json = {
+            "data": "",
+            "message": "Method not allowed",
+            "status_code": 405
+        }
+        return jsonify(json)
+
+
+@app.route('/get_spreadsheet')
+def get_spreadsheet():
+    json = {
+        "data": {
+            "forms": gsheet.get_all_records()
+        },
+        "message": "Success",
+        "status_code": 200
+    }
+    return jsonify(json)
+
+
+@app.route('/post_form', methods=['POST'])
+@cross_origin()
+def post_form():
+    if request.method == 'POST':
+        req = request.get_json()
+        row = [req['mood'], req['favorite_food']]
+        gsheet.append_row(row)
+        json = {
+            "message": "Success - Form submitted",
+            "status_code": 200
+        }
+        return jsonify(json)
     else:
         json = {
             "data": "",
